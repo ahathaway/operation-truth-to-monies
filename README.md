@@ -18,7 +18,8 @@ For development, you have a few options for running the app:
     - Second tab, run `npm start`
 
 
-For option #1, the backend and frontend run on the same server, and the frontend will proxy over to the API.
+>For option #1/#2, the backend and frontend run on the same server, and the frontend will proxy over to the API.
+>In this case, the backend API will be running on localhost:8080 by default, not 3000
 
 For development purposes, this is going to work and allow us to easily build this thing with less overhead. As it grows, we will need to find another method.
 
