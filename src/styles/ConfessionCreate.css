@@ -1,0 +1,14 @@
+.create-confession-bar-wrapper {
+    /* padding: 0 20px; */
+    height: 10vh;
+    margin-bottom: 5px;
+  }
+  .create-confession-bar {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  /*   height: 8vh;
+    
+    background-color: white;
+    font-size: 14px;  */
+  }

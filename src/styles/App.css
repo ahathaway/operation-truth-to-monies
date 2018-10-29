@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+  background-color: whitesmoke;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  /* display: flex;
+  flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+  
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 10;
+  /* background: inherit; */
+  -webkit-transition: height .5s, line-height .5s; /* Safari */
+    transition: height .5s, line-height .5s;
+}
+
+.page-header {
+  margin: 0;
+}
+
+.nav {
+  background-color: #282c34;
+  min-height: 10vh;
+  max-height: 10vh;
+
+  /* display: flex;
+  flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+  
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 10;
+  /* background: inherit; */
+  -webkit-transition: height .5s, line-height .5s; /* Safari */
+    transition: height .5s, line-height .5s;
+}
+
+.App-header-scrolled-nav h1 {
+  font-size: 16px;
+}
+
+.scrolled-nav {
+  background-color: #282c34;
+  min-height: 5vh;
+  height: 5vh;
+  color: white;
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 10;
+  /* background: inherit; */
+  -webkit-transition: height .5s, line-height .5s; /* Safari */
+    transition: height .5s, line-height .5s;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.grid-container {
+  margin-top: 10vh;
+}

@@ -1,0 +1,78 @@
+/* Card styling */
+.confession-card {
+    /* border: 1px solid black;
+    width: 100vw;
+    height: 15vw;
+    margin-top: 10px;
+    text-align: center; */
+    background-color: white;
+    height: 100px;
+    margin-top: 10px;
+    /* margin: 1vw; */
+    /* position: relative; */
+}
+
+.confession-card .card-content {
+  height: inherit;
+  position: relative;
+}
+
+  .confession-card .card-title {
+    font-size: 18px;
+    margin: 10px;
+    position: relative;
+  }
+  .confession-card .card-elapsed-time {
+    font-size: 12px;
+    color: grey;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 30%;
+    margin: auto;
+  }
+  .confession-card .vote-button {
+    height: inherit;
+    font-size: 20px;
+    bold: true;
+  }
+  .confession-card .vote-button-love {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    background-color :#7babf7;
+    color: white;
+    
+  }
+  
+  .confession-card .vote-button-hate {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    background-color: #f78d7b;
+    color: white;
+  }
+
+  .confession-card .vote-button-love:hover, .confession-card .vote-button-hate:hover {
+    box-shadow: 3px 3px 15px #666;
+    border-color:#C76C0C;
+    /* background: #C76C0C; */
+    /* color: #fff; */
+    cursor: pointer;
+    
+    /*Opacity*/
+    zoom: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+  }
+
+  /* .vote-button-hate:hover .vote-button-love { 
+  zoom: 1;
+  filter: alpha(opacity=45);
+  opacity: 0.6;
+  -webkit-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -ms-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+} */

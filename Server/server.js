@@ -4,9 +4,12 @@ const path = require('path');
 const app = express();
 app.use(express.static(path.join(__dirname, '../build')));
 
-app.get('/ping', function (req, res) {
- return res.send('pong');
+
+app.get('/api/confessions', function (req, res) {
+  console.log('/api/confessions');
+  return res.send(require("../test_json/confessions.json"));
 });
+
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, '../build', 'index.html'));
