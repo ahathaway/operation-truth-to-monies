@@ -2,10 +2,13 @@
   "confessions": [
     {
       "title": "nothing crazy",
+      "description": "Lorem ipsum dolor sit amet, id mediocrem neglegentur eam. Te primis possit debitis his. Vel no assum falli reprehendunt, his legendos sapientem ad. At vim labitur accommodare.",
       "date": "2018-10-23T16:08:17.440Z",
       "id": "ddfec700-a8c7-4297-bed1-940c25c6e6e6",
       "approvals": 0,
-      "disapprovals": 0
+      "disapprovals": 0,
+      "featured": 1,
+      "ip": "123.456.789.100"
     },
     {
       "title": "The power is out",
